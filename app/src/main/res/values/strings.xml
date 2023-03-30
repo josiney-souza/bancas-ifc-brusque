@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Bancas IFC Brusque</string>
+    <string name="msgInicial">Bem vindo ao APP de Bancas de TCC</string>
+    <string name="tela1msg">Escolha uma das possibilidades abaixo:</string>
+    <string name="tela1btn1">Banca de TCC</string>
+    <string name="tela1btn2">Banca de Professor Substituto - Didática</string>
+    <string name="tela1btn3">Banca de Professor Substituto - Títulos</string>
+    <string name="critTcc11">a) Relevância temática e adequação teórico-metodológica (1,0)</string>
+    <string name="critTcc12">b) Apresentação gráfica e estética (0,5)</string>
+    <string name="critTcc13">c) Suficiência e atualização da revisão bibliográfica (1,0)</string>
+    <string name="critTcc14">d) Clareza, concisão e precisão da redação (1,0)</string>
+    <string name="critTcc15">e) Adequação às normas da metodologia científica (0,5)</string>
+    <string name="critTcc16">f) Argumentação na discussão (1,0)</string>
+    <string name="critTcc17">g) Coerência e pertinência da conclusão (1,0)</string>
+    <string name="critTcc21">a) Otimização do tempo de exposição (0,5)</string>
+    <string name="critTcc22">b) Domínio na utilização de recursos audiovisuais (0,5)</string>
+    <string name="critTcc23">c) Segurança durante a apresentação (clareza, nitidez, concisão e precisão do linguajar; postura gestual-corporal; sequenciamento racional das ideias, domínio do tema) (2,0)</string>
+    <string name="critTcc24">d) Adequação às normas da metodologia científica (didatismo e motivação, consistência e fundamentação da arguição) (1,0)</string>
+    <string name="critSubsDid11">Clareza dos Objetivos (5,00)</string>
+    <string name="critSubsDid12">Adequação dos objetivos ao conteúdo (5,00)</string>
+    <string name="critSubsDid13">Coerência na subdivisão do conteúdo (5,00)</string>
+    <string name="critSubsDid14">Adequação do conteúdo ao tempo disponível (5,00)</string>
+    <string name="critSubsDid15">Seleção apropriada do material didático (5,00)</string>
+    <string name="critSubsDid21">Apresentação do professor, dicção e motivação (5,00)</string>
+    <string name="critSubsDid22">Relação de continuidade entre o plano e o desenvolvimento da aula (10,00)</string>
+    <string name="critSubsDid23">Linguagem clara, correta e adequada ao conteúdo (10,0)</string>
+    <string name="critSubsDid24">Abordagem das ideias fundamentais ao conteúdo (10,0)</string>
+    <string name="critSubsDid25">Sequência lógica do conteúdo dissertado (5,0)</string>
+    <string name="critSubsDid26">Articulação entre as ideias apresentadas: aplicações e informações atualizadas (5,0)</string>
+    <string name="critSubsDid27">Conteúdo com informações corretas (10,0)</string>
+    <string name="critSubsDid28">Adequação do conteúdo em função do tempo estipulado para a prova (5,0)</string>
+    <string name="critSubsDid29">Estrutura da aula, evidenciando introdução, desenvolvimento e conclusão (10,0)</string>
+    <string name="critSubsDid210">Uso adequado do material didático (5,0)</string>
+    <string name="nomeSharedPrefs">prefsSeekBar</string>
+    <string name="mediaParcial">Média Parcial</string>
 </resources>
