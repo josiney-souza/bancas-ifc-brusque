@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamMsgInicial">24sp</dimen>
+    <dimen name="categorias">20sp</dimen>
+    <dimen name="demaisTextos">16sp</dimen>
+    <dimen name="tamSwitch">50dp</dimen>
+</resources>
