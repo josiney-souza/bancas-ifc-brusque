@@ -354,23 +354,23 @@ public class SubsDidaticaActivity extends AppCompatActivity {
     private void somar () {
         double soma1, soma2;
 
-        soma1 = Double.valueOf(et11.getText().toString()) +
-                Double.valueOf(et12.getText().toString()) +
-                Double.valueOf(et13.getText().toString()) +
-                Double.valueOf(et14.getText().toString()) +
-                Double.valueOf(et15.getText().toString());
+        soma1 = Double.parseDouble(et11.getText().toString()) +
+                Double.parseDouble(et12.getText().toString()) +
+                Double.parseDouble(et13.getText().toString()) +
+                Double.parseDouble(et14.getText().toString()) +
+                Double.parseDouble(et15.getText().toString());
         tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-        soma2 = Double.valueOf(et21.getText().toString()) +
-                Double.valueOf(et22.getText().toString()) +
-                Double.valueOf(et23.getText().toString()) +
-                Double.valueOf(et24.getText().toString()) +
-                Double.valueOf(et25.getText().toString()) +
-                Double.valueOf(et26.getText().toString()) +
-                Double.valueOf(et27.getText().toString()) +
-                Double.valueOf(et28.getText().toString()) +
-                Double.valueOf(et29.getText().toString()) +
-                Double.valueOf(et210.getText().toString()) ;
+        soma2 = Double.parseDouble(et21.getText().toString()) +
+                Double.parseDouble(et22.getText().toString()) +
+                Double.parseDouble(et23.getText().toString()) +
+                Double.parseDouble(et24.getText().toString()) +
+                Double.parseDouble(et25.getText().toString()) +
+                Double.parseDouble(et26.getText().toString()) +
+                Double.parseDouble(et27.getText().toString()) +
+                Double.parseDouble(et28.getText().toString()) +
+                Double.parseDouble(et29.getText().toString()) +
+                Double.parseDouble(et210.getText().toString()) ;
         tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
         etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -442,23 +442,23 @@ public class SubsDidaticaActivity extends AppCompatActivity {
         et29.setText(String.valueOf(sb29.getProgress() ));
         et210.setText(String.valueOf(sb210.getProgress() ));
 
-        soma1 = Double.valueOf(et11.getText().toString()) +
-                Double.valueOf(et12.getText().toString()) +
-                Double.valueOf(et13.getText().toString()) +
-                Double.valueOf(et14.getText().toString()) +
-                Double.valueOf(et15.getText().toString());
+        soma1 = Double.parseDouble(et11.getText().toString()) +
+                Double.parseDouble(et12.getText().toString()) +
+                Double.parseDouble(et13.getText().toString()) +
+                Double.parseDouble(et14.getText().toString()) +
+                Double.parseDouble(et15.getText().toString());
         tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-        soma2 = Double.valueOf(et21.getText().toString()) +
-                Double.valueOf(et22.getText().toString()) +
-                Double.valueOf(et23.getText().toString()) +
-                Double.valueOf(et24.getText().toString()) +
-                Double.valueOf(et25.getText().toString()) +
-                Double.valueOf(et26.getText().toString()) +
-                Double.valueOf(et27.getText().toString()) +
-                Double.valueOf(et28.getText().toString()) +
-                Double.valueOf(et29.getText().toString()) +
-                Double.valueOf(et210.getText().toString()) ;
+        soma2 = Double.parseDouble(et21.getText().toString()) +
+                Double.parseDouble(et22.getText().toString()) +
+                Double.parseDouble(et23.getText().toString()) +
+                Double.parseDouble(et24.getText().toString()) +
+                Double.parseDouble(et25.getText().toString()) +
+                Double.parseDouble(et26.getText().toString()) +
+                Double.parseDouble(et27.getText().toString()) +
+                Double.parseDouble(et28.getText().toString()) +
+                Double.parseDouble(et29.getText().toString()) +
+                Double.parseDouble(et210.getText().toString()) ;
         tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
         etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));

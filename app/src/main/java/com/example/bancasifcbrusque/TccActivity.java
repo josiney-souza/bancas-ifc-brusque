@@ -67,19 +67,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et11.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -106,19 +106,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et12.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -145,19 +145,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et13.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -184,19 +184,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et14.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -223,19 +223,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et15.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -262,19 +262,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et16.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -301,19 +301,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et17.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -340,19 +340,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et21.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -379,19 +379,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et22.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -418,19 +418,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et23.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -457,19 +457,19 @@ public class TccActivity extends AppCompatActivity {
                 nota = maximo / 10.0;
                 et24.setText(String.valueOf(nota));
 
-                soma1 = Double.valueOf(et11.getText().toString()) +
-                        Double.valueOf(et12.getText().toString()) +
-                        Double.valueOf(et13.getText().toString()) +
-                        Double.valueOf(et14.getText().toString()) +
-                        Double.valueOf(et15.getText().toString()) +
-                        Double.valueOf(et16.getText().toString()) +
-                        Double.valueOf(et17.getText().toString());
+                soma1 = Double.parseDouble(et11.getText().toString()) +
+                        Double.parseDouble(et12.getText().toString()) +
+                        Double.parseDouble(et13.getText().toString()) +
+                        Double.parseDouble(et14.getText().toString()) +
+                        Double.parseDouble(et15.getText().toString()) +
+                        Double.parseDouble(et16.getText().toString()) +
+                        Double.parseDouble(et17.getText().toString());
                 tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-                soma2 = Double.valueOf(et21.getText().toString()) +
-                        Double.valueOf(et22.getText().toString()) +
-                        Double.valueOf(et23.getText().toString()) +
-                        Double.valueOf(et24.getText().toString()) ;
+                soma2 = Double.parseDouble(et21.getText().toString()) +
+                        Double.parseDouble(et22.getText().toString()) +
+                        Double.parseDouble(et23.getText().toString()) +
+                        Double.parseDouble(et24.getText().toString()) ;
                 tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
                 etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
@@ -541,19 +541,19 @@ public class TccActivity extends AppCompatActivity {
         et23.setText(String.valueOf(sb23.getProgress() / 10.0));
         et24.setText(String.valueOf(sb24.getProgress() / 10.0));
 
-        soma1 = Double.valueOf(et11.getText().toString()) +
-                Double.valueOf(et12.getText().toString()) +
-                Double.valueOf(et13.getText().toString()) +
-                Double.valueOf(et14.getText().toString()) +
-                Double.valueOf(et15.getText().toString()) +
-                Double.valueOf(et16.getText().toString()) +
-                Double.valueOf(et17.getText().toString());
+        soma1 = Double.parseDouble(et11.getText().toString()) +
+                Double.parseDouble(et12.getText().toString()) +
+                Double.parseDouble(et13.getText().toString()) +
+                Double.parseDouble(et14.getText().toString()) +
+                Double.parseDouble(et15.getText().toString()) +
+                Double.parseDouble(et16.getText().toString()) +
+                Double.parseDouble(et17.getText().toString());
         tvValMP1.setText(String.format(idioma, "%.1f", soma1));
 
-        soma2 = Double.valueOf(et21.getText().toString()) +
-                Double.valueOf(et22.getText().toString()) +
-                Double.valueOf(et23.getText().toString()) +
-                Double.valueOf(et24.getText().toString()) ;
+        soma2 = Double.parseDouble(et21.getText().toString()) +
+                Double.parseDouble(et22.getText().toString()) +
+                Double.parseDouble(et23.getText().toString()) +
+                Double.parseDouble(et24.getText().toString()) ;
         tvValMP2.setText(String.format(idioma, "%.1f", soma2));
 
         etNotaFinal.setText(String.format(idioma, "%.1f", soma1+soma2));
