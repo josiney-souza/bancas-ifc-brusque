@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".SubsDidaticaActivity">
+
+    <ScrollView
+        android:id="@+id/scConteiner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/etNotaFinalSubsDid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlanoDeAula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Plano de Aula"
+                android:textSize="@dimen/categorias"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:text="@string/critSubsDid11"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid12"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid13"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid14"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid15"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvMP1SubsDid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mediaParcial"
+                    android:textSize="@dimen/demaisTextos"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/tvValMP1SubsDid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="0"
+                    android:textSize="@dimen/demaisTextos"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDesAula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Desenvolvimento da Aula"
+                android:textSize="@dimen/categorias"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid21"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid22"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid23"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid24"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid25"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid26"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid27"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid28"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid29"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/tvCritSubsDid210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/critSubsDid210"
+                android:textColor="@color/texto"
+                android:textSize="@dimen/demaisTextos" />
+
+            <SeekBar
+                android:id="@+id/sbCritSubsDid210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:progress="0" />
+
+            <EditText
+                android:id="@+id/etCritSubsDid210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Nota do Item"
+                android:inputType="numberDecimal"
+                android:text="0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvMP2SubsDid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mediaParcial"
+                    android:textSize="@dimen/demaisTextos"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/tvValMP2SubsDid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="0"
+                    android:textSize="@dimen/demaisTextos"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvNotaFinalSubsDid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="8dp"
+        android:text="Nota final:"
+        android:textSize="@dimen/categorias"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btVoltar"
+        app:layout_constraintEnd_toStartOf="@+id/etNotaFinalSubsDid"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etNotaFinalSubsDid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="Valor"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/categorias"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btVoltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvNotaFinalSubsDid" />
+
+    <Button
+        android:id="@+id/btVoltar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/texto"
+        android:onClick="onClickVoltar"
+        android:text="Voltar"
+        android:textColor="@color/fundo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
