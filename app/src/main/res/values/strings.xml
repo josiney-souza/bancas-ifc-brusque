@@ -5,6 +5,7 @@
     <string name="tela1btn1">Banca de TCC</string>
     <string name="tela1btn2">Banca de Professor Substituto - Didática</string>
     <string name="tela1btn3">Banca de Professor Substituto - Títulos</string>
+    <string name="tela1btnApagar">Limpar dados de notas salvas</string>
     <string name="critTcc11">a) Relevância temática e adequação teórico-metodológica (1,0)</string>
     <string name="critTcc12">b) Apresentação gráfica e estética (0,5)</string>
     <string name="critTcc13">c) Suficiência e atualização da revisão bibliográfica (1,0)</string>
